@@ -13,22 +13,25 @@
 
         <nav>
             <ul>
-                <li>About</li>
-                <li>Gallery</li>
-                <li>Contact</li>
-                <li>Top</li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="#top">Top</a></li>
             </ul>
         </nav>
 
         <main>
-            <section>
+            <section class="about">
                 <h2>About</h2>
-                    <p>Hello! I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it's taken me all over the world.</p>
+                    <p>Hello!</p>
+                    <p>I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it's taken me all over the world.</p>
             </section>
 
-            <section>
+            <section class="gallery">
                 <h2>Gallery</h2>
                     <p>Here are some highlights of my work. The location and year are in the caption.</p>
+            </section>   
+            <section class="galleryimages">
                     <figure>
                         <img src="images/Chile.png"
                         alt="Beach view of the ocean waves and a large rocky cliff">
@@ -91,17 +94,17 @@
                     </figure>
             </section>
 
-            <section>
+            <section class="contact">
                 <h2>Contact</h2>
                     <p>Please fill out this form and I'll connect with you soon.</p>
                 <form>
-                    <p><label>Name <input></label></p>
-                    <p><label>Email <input></label></p>
-                    <p><label>Message <input></label></p>
+                    <p><label>Name <input placeholder="Your Name Here"></label></p>
+                    <p><label>Email <input placeholder="Enter your email address"></label></p>
+                    <p><label>Message <input placeholder="What can I help you with?"></label></p>
                     <p><button>Submit</button></p>
                 </form>
             </section>
-            
+
         </main>
         <footer>
             <p><small>&copy; Copyright 2021 TK Photography</small></p>

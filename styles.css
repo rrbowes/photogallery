@@ -1,0 +1,113 @@
+html {
+    background-color: black;
+}
+
+header {
+    color: #007d7b;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+    text-transform:uppercase;
+    text-align: center;
+    padding: 5px;
+}
+
+nav li {
+    display: inline-flex;
+    padding: 10px;
+    list-style: none;
+}
+
+nav a {
+    color:#ffffff;
+    font-size: 1.5em;
+    display: block;
+}
+
+[href="#top"] {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+}
+
+body {
+    background-color: #ffffff;
+    width: 485px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+p {
+    margin:10px;
+    font-size: 1.25em;
+}
+
+img {
+    width: 100%;
+    align-items: center;
+}
+
+form + p{
+    width:600px;
+}
+
+footer {
+    text-transform: uppercase;
+    color:#ffffff;
+    background-color: black;
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+}
+
+input:placeholder-shown {
+    color: #007d7b;
+    text-transform: uppercase;
+}
+
+.contact {
+    background-color: black;
+    color:#ffffff;
+    text-align: center;
+}
+
+.contact button {
+    background-color: #007d7b;
+    color: #ffffff;
+}
+
+
+/*breakpoints*/
+
+@media screen and (min-width:880px) {
+
+header {
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+body {
+    width: 880px;
+}
+
+.galleryimages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0;
+}
+}
+
+@media screen and (min-width:1300px) {
+    
+}
