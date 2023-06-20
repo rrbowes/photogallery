@@ -50,13 +50,21 @@ p {
     font-size: 1.25em;
 }
 
+figcaption {
+    text-align: center;
+}
+
 img {
     width: 100%;
     align-items: center;
 }
 
-form + p{
-    width:600px;
+form {
+    display: block;
+}
+
+input {
+    width: 70%;
 }
 
 footer {
