@@ -108,6 +108,19 @@ body {
 }
 }
 
+
 @media screen and (min-width:1300px) {
-    
+
+ul {
+    text-align: right;
+}
+
+body{
+    width: 1300px;
+}
+.galleryimages {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 }
